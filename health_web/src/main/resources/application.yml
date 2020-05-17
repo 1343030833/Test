@@ -1,0 +1,22 @@
+#端口
+server:
+  port: 18081
+
+#dubbo 配置
+dubbo:
+  application:
+    name: health_web
+  registry:
+    address: zookeeper://localhost:2181
+  scan: com.zjc.controller
+
+#thymeleaf 用于前端交互
+spring:
+  thymeleaf:
+    cache: false
+
+
+###Dubbo  服务消费者配置
+#  spring.dubbo.application.name=dubbo_client
+#  spring.dubbo.registry.address=zookeeper://39.108.123.128:2181
+#  spring.dubbo.scan=com.dalaoyang.controller

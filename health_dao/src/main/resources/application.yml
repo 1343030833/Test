@@ -1,0 +1,19 @@
+##连接数据库
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/health?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+#    username: root
+#    password: 123456
+#
+##mybatis别名
+#mybatis:
+#  type-aliases-package: com.zjc.pojo
+#  mapper-locations: classpath:mapper/*.xml
+#
+##设置日志
+#logging:
+#  level:
+#    com:
+#      zjc:
+#        mapper: debug
